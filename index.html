@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Abridor de URLs</title>
+  </head>
+  <body>
+    <header class="header container">
+      <h1>Abridor de URLs</h1>
+    </header>
+    <main class="main container">
+      <section>
+        <div>
+          <p class="alert">
+            ⚠️ Pode ser necessário habilitar o popup do seu navegador para
+            visualizar o resultado.
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="url">Adicione as URLs abaixo:</label>
+              <textarea name="url" id="url"></textarea>
+              <button>Abrir</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="container" id="result"></div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/franciscojsc" target="_blank"
+          >@franciscojsc</a
+        >
+      </p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
